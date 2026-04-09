@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 
 app.get('/', (req, res) => {
-    res.send(`Hello from my Beanstalk pord app! Served by instance: ${os.hostname()}`);
+    res.send(`Hello from my Beanstalk production! Served by instance: ${os.hostname()}`);
 });
 
 app.listen(port, () => {
