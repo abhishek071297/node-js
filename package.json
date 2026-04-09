@@ -1,0 +1,16 @@
+{
+  "name": "azure-local-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app for Azure deployment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Abhishek Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
